@@ -1,0 +1,12 @@
+Build and test one class at a time in this order:
+
+Project setup (pom.xml)
+LoginRequest
+JwtResponse
+JwtUtil (generate a token)
+AuthController (/login)
+Test /login in Postman
+JwtFilter
+SecurityConfig
+SecureController
+Test /api/hello with and without a JWT
