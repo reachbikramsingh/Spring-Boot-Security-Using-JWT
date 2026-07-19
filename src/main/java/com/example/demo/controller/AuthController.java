@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.util.JwtUtil;
-
+//this is auth controller.
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
